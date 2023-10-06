@@ -1,5 +1,5 @@
 .place__column {
-  display: flex;
+  padding: 0;
 }
 
 @media screen and (max-width: 767px) {
