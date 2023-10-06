@@ -13,6 +13,7 @@
   .place {
     grid-template-columns: 440px 1fr;
     grid-gap: 48px 32px;
+    width: 928px;
   }
 }
 
@@ -21,6 +22,7 @@
     padding: 36px 0;
     grid-template-columns: 340px 1fr;
     grid-gap: 48px 28px;
+    width: 720px;
   }
 }
 
@@ -29,5 +31,6 @@
     padding: 24px 0;
     grid-template-columns: minmax(288px, 1fr);
     grid-gap: 32px;
+    width: 320px;
   }
 }

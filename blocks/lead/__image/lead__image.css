@@ -1,7 +1,6 @@
 .lead__image {
   margin: 0;
-  width: 984px;
-  height: 615px;
-  flex-shrink: 0;
-  object-fit: cover;
+  width: 100%;
+  object-fit: contain;
+  aspect-ratio: 1.6;
 }
