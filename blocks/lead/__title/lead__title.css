@@ -12,16 +12,20 @@
   text-align: center;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 1024px) {
   .lead__title {
-    margin: 0 24px 48px 24px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    margin: 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .lead__title {
-    max-width: 320px;
-    max-height: 88px;
     margin: 0 16px 16px;
     font-size: 40px;
     line-height: 44px; /* 110% */
