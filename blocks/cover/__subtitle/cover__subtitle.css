@@ -1,7 +1,6 @@
 .cover__subtitle {
   color: #fff;
   text-align: center;
-  font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -14,25 +13,21 @@
   width: 100%;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover__subtitle {
-    color: #fff;
     font-size: 18px;
     line-height: 22px; /* 122.222% */
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover__subtitle {
-    color: #fff;
     font-size: 18px;
-    line-height: 22px; /* 122.222% */
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover__subtitle {
-    color: #fff;
     font-size: 14px;
     line-height: 16px; /* 114.286% */
     padding: 16px 0 0 0;

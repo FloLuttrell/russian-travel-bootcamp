@@ -35,18 +35,18 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover {
-    margin: 92px 0 0 0;
+    margin: 92px auto 0;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover {
-    margin: 90px 0 0 0;
+    margin: 90px auto 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
-    margin: 66px 0 0 0;
+    margin: 66px auto 0;
   }
 }
