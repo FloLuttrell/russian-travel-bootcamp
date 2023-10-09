@@ -1,12 +1,12 @@
 .cover {
   background-image: url(../../images/dmitry-vaccinium.jpg);
-  background-position-y: -24px;
+  /* background-position-y: -24px; */
   /* width: calc(94vw + (1000px - min(100vw, 1000px)) * (30 / 500));
   height: calc(94vw * (900 / 1440)); */
+  background-position: center;
   width: 100%;
   aspect-ratio: 1.6;
   max-width: 1184px;
-  max-height: 740px;
   object-fit: cover;
   display: flex;
   justify-content: center;
@@ -33,13 +33,13 @@
   background-color: rgba(42, 44, 47, 0.8);
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .cover {
     margin: 92px auto 0;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .cover {
     margin: 90px auto 0;
   }
