@@ -1,8 +1,8 @@
-.cover {
-  background-image: url(../../images/dmitry-vaccinium.jpg);
+.cover__link {
+  background-image: url(../../../images/dmitry-vaccinium.jpg);
   /* background-position-y: -24px; */
   /* width: calc(94vw + (1000px - min(100vw, 1000px)) * (30 / 500));
-  height: calc(94vw * (900 / 1440)); */
+    height: calc(94vw * (900 / 1440)); */
   background-position: center;
   width: 100%;
   aspect-ratio: 1.6;
@@ -19,7 +19,7 @@
   margin: 92px 48px 0 48px;
 }
 
-.cover::before {
+.cover__link::before {
   content: "";
   position: absolute;
   top: 0;
@@ -29,24 +29,24 @@
   background-color: rgba(42, 44, 47, 0.3);
 }
 
-.cover:hover:before {
+.cover__link:hover:before {
   background-color: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (max-width: 1279px) {
-  .cover {
+  .cover__link {
     margin: 92px auto 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .cover {
+  .cover__link {
     margin: 90px auto 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .cover {
+  .cover__link {
     margin: 66px auto 0;
   }
 }
